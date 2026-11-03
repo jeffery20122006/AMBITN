@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Events | AMBI TN (Dark Glass)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 24px 16px;
+      background: #070d18;
+      min-height: 100vh;
+      font-family: 'Outfit', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <!-- Embedded Section Component -->
+<!-- 
+  AMBI TN - Academic Events Section (Dark Glassy Theme - 20 Detailed Events with WhatsApp Sharing)
+  Paste this entire code block into Wix Studio / Wix Editor's "Embed HTML" element.
+-->
+<div id="ambitn-darkglass-root">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+  <style>
+    #ambitn-darkglass-root {
+      --bg-dark: #070d18;
+      --glass-surface: rgba(14, 24, 44, 0.75);
+      --glass-border: rgba(255, 255, 255, 0.1);
+      --glass-border-gold: rgba(245, 158, 11, 0.4);
+      --accent-gold: #f59e0b;
+      --accent-cyan: #38bdf8;
+      --accent-whatsapp: #25d366;
+      --text-white: #ffffff;
+      --text-secondary: #cbd5e1;
+      --text-muted: #94a3b8;
+
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #080f1e;
+      background-image: radial-gradient(circle at 10% 20%, rgba(30, 58, 138, 0.4) 0%, transparent 40%),
+                        radial-gradient(circle at 90% 15%, rgba(245, 158, 11, 0.15) 0%, transparent 35%),
+                        radial-gradient(circle at 50% 90%, rgba(14, 165, 233, 0.18) 0%, transparent 45%),
+                        #080f1e;
+      color: var(--text-white);
+      border-radius: 24px;
+      border: 1px solid var(--glass-border);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      line-height: 1.5;
+      position: relative;
+    }
+
+    #ambitn-darkglass-root * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Top Hero Header Section */
+    #ambitn-darkglass-root .hero-top-section {
+      position: relative;
+      padding: 36px 42px 28px 42px;
+      background: linear-gradient(180deg, rgba(18, 32, 60, 0.55) 0%, rgba(10, 18, 34, 0.75) 100%);
+      border-bottom: 1px solid var(--glass-border);
+      overflow: hidden;
+    }
+
+    #ambitn-darkglass-root .hero-bg-visual {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 52%;
+      background-image: url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80');
+      background-size: cover;
+      background-position: center right;
+      mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.2) 25%, rgba(0,0,0,0.85) 75%);
+      -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.2) 25%, rgba(0,0,0,0.85) 75%);
+      opacity: 0.35;
+      pointer-events: none;
+      mix-blend-mode: luminosity;
+    }
+
+    #ambitn-darkglass-root .brand-header-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 24px;
+      position: relative;
+      z-index: 2;
+    }
+
+    #ambitn-darkglass-root .brand-logo-icon {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, rgba(15, 30, 56, 0.9) 0%, rgba(26, 48, 88, 0.9) 100%);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent-gold);
+      box-shadow: 0 0 20px rgba(245, 158, 11, 0.25);
+    }
+
+    #ambitn-darkglass-root .brand-title {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--text-white);
+      letter-spacing: 0.5px;
+    }
+
+    #ambitn-darkglass-root .brand-tagline {
+      font-size: 11.5px;
+      font-weight: 500;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    #ambitn-darkglass-root .hero-content-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 32px;
+      position: relative;
+      z-index: 2;
+      align-items: center;
+    }
+
+    #ambitn-darkglass-root .title-line-wrap {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 6px;
+    }
+
+    #ambitn-darkglass-root .cal-icon-box {
+      width: 40px;
+      height: 40px;
+      color: var(--accent-gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      filter: drop-shadow(0 0 8px rgba(245, 158, 11, 0.4));
+    }
+
+    #ambitn-darkglass-root .cal-icon-box svg {
+      width: 34px;
+      height: 34px;
+    }
+
+    #ambitn-darkglass-root .gold-vertical-divider {
+      width: 4px;
+      height: 36px;
+      background: linear-gradient(to bottom, #fbbf24, #d97706);
+      border-radius: 3px;
+      box-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
+    }
+
+    #ambitn-darkglass-root .hero-main-heading {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 36px;
+      font-weight: 700;
+      color: var(--text-white);
+      letter-spacing: -0.5px;
+    }
+
+    #ambitn-darkglass-root .hero-sub-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--accent-cyan);
+      font-style: italic;
+      margin-bottom: 12px;
+      margin-left: 54px;
+    }
+
+    #ambitn-darkglass-root .hero-gold-separator {
+      width: 65px;
+      height: 3px;
+      background: linear-gradient(90deg, #f59e0b, transparent);
+      border-radius: 2px;
+      margin-bottom: 16px;
+      margin-left: 54px;
+    }
+
+    #ambitn-darkglass-root .hero-body-paragraphs {
+      margin-left: 54px;
+      font-size: 13.5px;
+      color: var(--text-secondary);
+      line-height: 1.65;
+    }
+
+    #ambitn-darkglass-root .hero-body-paragraphs p {
+      margin-bottom: 10px;
+    }
+
+    #ambitn-darkglass-root .hero-body-paragraphs strong {
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    /* Dark Glass Awards Card */
+    #ambitn-darkglass-root .awards-glass-card {
+      background: rgba(18, 30, 54, 0.65);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--glass-border-gold);
+      border-radius: 20px;
+      padding: 22px 26px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.12), 0 0 20px rgba(245, 158, 11, 0.1);
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      max-width: 480px;
+      margin-left: auto;
+    }
+
+    #ambitn-darkglass-root .trophy-badge-wrap {
+      width: 80px;
+      height: 80px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle, rgba(245, 158, 11, 0.25) 0%, transparent 70%);
+      filter: drop-shadow(0 0 12px rgba(245, 158, 11, 0.4));
+    }
+
+    #ambitn-darkglass-root .awards-details-wrap {
+      flex: 1;
+    }
+
+    #ambitn-darkglass-root .awards-card-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    #ambitn-darkglass-root .awards-card-header h3 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--accent-gold);
+    }
+
+    #ambitn-darkglass-root .award-pill-item {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      border-radius: 50px;
+      padding: 8px 16px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    #ambitn-darkglass-root .award-star-icon {
+      color: var(--accent-gold);
+    }
+
+    /* Wave graphic transition */
+    #ambitn-darkglass-root .decorative-wave-bar {
+      width: 100%;
+      height: 40px;
+      position: relative;
+      overflow: hidden;
+      background: rgba(10, 18, 34, 0.95);
+    }
+
+    #ambitn-darkglass-root .wave-svg {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Table Section */
+    #ambitn-darkglass-root .events-table-section {
+      padding: 26px 42px 42px 42px;
+    }
+
+    #ambitn-darkglass-root .table-controls-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 22px;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    #ambitn-darkglass-root .section-title-box {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    #ambitn-darkglass-root .section-gold-stripe {
+      width: 4px;
+      height: 26px;
+      background: linear-gradient(to bottom, #fbbf24, #d97706);
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
+    }
+
+    #ambitn-darkglass-root .section-title-box h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 25px;
+      font-weight: 700;
+      color: var(--text-white);
+    }
+
+    #ambitn-darkglass-root .actions-right-wrap {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    #ambitn-darkglass-root .search-input-pill-wrap {
+      position: relative;
+      width: 270px;
+    }
+
+    #ambitn-darkglass-root .search-input-pill-wrap svg {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 15px;
+      height: 15px;
+      color: var(--text-muted);
+    }
+
+    #ambitn-darkglass-root .search-input-pill {
+      width: 100%;
+      padding: 8px 14px 8px 36px;
+      background: rgba(18, 30, 54, 0.7);
+      border: 1px solid var(--glass-border);
+      border-radius: 50px;
+      font-size: 13px;
+      color: var(--text-white);
+      outline: none;
+    }
+
+    #ambitn-darkglass-root .search-input-pill:focus {
+      border-color: var(--accent-cyan);
+      box-shadow: 0 0 12px rgba(56, 189, 248, 0.25);
+    }
+
+    #ambitn-darkglass-root .instructions-link-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--accent-cyan);
+      text-decoration: none;
+      cursor: pointer;
+      padding: 8px 14px;
+      border-radius: 50px;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      transition: all 0.2s ease;
+    }
+
+    #ambitn-darkglass-root .instructions-link-btn:hover {
+      background: rgba(56, 189, 248, 0.2);
+      border-color: var(--accent-cyan);
+      color: #ffffff;
+    }
+
+    /* Structured Dark Glass Table */
+    #ambitn-darkglass-root .table-container-card {
+      background: rgba(13, 23, 42, 0.65);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--glass-border);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    }
+
+    #ambitn-darkglass-root .events-structured-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    #ambitn-darkglass-root .events-structured-table thead tr {
+      background: rgba(22, 36, 65, 0.85);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    #ambitn-darkglass-root .events-structured-table th {
+      padding: 16px 18px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      color: var(--accent-gold);
+      border-right: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    #ambitn-darkglass-root .events-structured-table th:last-child {
+      border-right: none;
+    }
+
+    #ambitn-darkglass-root .th-sno { width: 65px; text-align: center; }
+    #ambitn-darkglass-root .th-name { width: 48%; }
+    #ambitn-darkglass-root .th-date { width: 23%; }
+    #ambitn-darkglass-root .th-venue { width: 25%; }
+
+    #ambitn-darkglass-root .events-structured-table tbody tr {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      transition: background-color 0.2s ease;
+    }
+
+    #ambitn-darkglass-root .events-structured-table tbody tr:nth-child(even) {
+      background-color: rgba(18, 30, 54, 0.35);
+    }
+
+    #ambitn-darkglass-root .events-structured-table tbody tr:hover {
+      background-color: rgba(30, 48, 86, 0.5);
+    }
+
+    #ambitn-darkglass-root .events-structured-table td {
+      padding: 16px 18px;
+      font-size: 13.5px;
+      color: var(--text-secondary);
+      vertical-align: middle;
+      border-right: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    #ambitn-darkglass-root .events-structured-table td:last-child {
+      border-right: none;
+    }
+
+    #ambitn-darkglass-root .td-sno-col {
+      text-align: center;
+      font-weight: 800;
+      color: var(--accent-gold);
+      font-size: 15px;
+    }
+
+    #ambitn-darkglass-root .event-entry-title {
+      font-size: 14.5px;
+      font-weight: 700;
+      color: #60a5fa;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      line-height: 1.45;
+      text-decoration: none;
+      transition: color 0.2s ease, text-shadow 0.2s ease;
+    }
+
+    #ambitn-darkglass-root .event-entry-title:hover {
+      color: var(--accent-cyan);
+      text-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+    }
+
+    /* Tags Row */
+    #ambitn-darkglass-root .event-workshops-tagline {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 6px;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    #ambitn-darkglass-root .badge-highlight {
+      background: rgba(14, 165, 233, 0.15);
+      border: 1px solid rgba(14, 165, 233, 0.35);
+      color: var(--accent-cyan);
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 11px;
+      letter-spacing: 0.3px;
+    }
+
+    /* WhatsApp Share Button */
+    #ambitn-darkglass-root .whatsapp-share-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 3px 9px;
+      border-radius: 50px;
+      background: rgba(37, 211, 102, 0.14);
+      border: 1px solid rgba(37, 211, 102, 0.45);
+      color: #4ade80;
+      font-size: 11px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      margin-left: 4px;
+    }
+
+    #ambitn-darkglass-root .whatsapp-share-btn:hover {
+      background: rgba(37, 211, 102, 0.3);
+      border-color: #25d366;
+      color: #ffffff;
+      box-shadow: 0 0 10px rgba(37, 211, 102, 0.4);
+      transform: translateY(-1px);
+    }
+
+    #ambitn-darkglass-root .whatsapp-share-btn svg {
+      width: 13px;
+      height: 13px;
+      fill: currentColor;
+    }
+
+    #ambitn-darkglass-root .date-cell-wrap {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-weight: 600;
+      color: #ffffff;
+      font-size: 13.5px;
+    }
+
+    #ambitn-darkglass-root .date-cell-wrap svg {
+      width: 17px;
+      height: 17px;
+      color: var(--accent-cyan);
+      flex-shrink: 0;
+      filter: drop-shadow(0 0 6px var(--accent-cyan));
+    }
+
+    #ambitn-darkglass-root .venue-cell-wrap {
+      display: flex;
+      align-items: flex-start;
+      gap: 9px;
+      color: var(--text-secondary);
+    }
+
+    #ambitn-darkglass-root .venue-cell-wrap svg {
+      width: 17px;
+      height: 17px;
+      color: var(--accent-gold);
+      flex-shrink: 0;
+      margin-top: 2px;
+      filter: drop-shadow(0 0 6px var(--accent-gold));
+    }
+
+    #ambitn-darkglass-root .venue-name {
+      font-weight: 600;
+      color: #ffffff;
+      line-height: 1.35;
+    }
+
+    #ambitn-darkglass-root .venue-sub {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    /* Modal inside Embed */
+    #ambitn-darkglass-root .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(3, 7, 18, 0.8);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 99999;
+      padding: 20px;
+    }
+
+    #ambitn-darkglass-root .modal-backdrop.open {
+      display: flex;
+    }
+
+    #ambitn-darkglass-root .modal-sheet {
+      background: rgba(15, 26, 48, 0.96);
+      border: 1px solid var(--glass-border-gold);
+      border-radius: 20px;
+      width: 100%;
+      max-width: 540px;
+      padding: 28px;
+      position: relative;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7), 0 0 30px rgba(245, 158, 11, 0.15);
+      color: #ffffff;
+      animation: ambitnModalFade 0.25s ease-out;
+    }
+
+    @keyframes ambitnModalFade {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    #ambitn-darkglass-root .modal-close-icon {
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+      color: #cbd5e1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+
+    #ambitn-darkglass-root .modal-sheet h3 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 21px;
+      color: var(--accent-gold);
+      margin-bottom: 14px;
+      line-height: 1.35;
+    }
+
+    #ambitn-darkglass-root .modal-info-row {
+      margin-bottom: 12px;
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    #ambitn-darkglass-root .modal-info-row strong {
+      color: #ffffff;
+    }
+
+    #ambitn-darkglass-root .modal-actions-bar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    #ambitn-darkglass-root .modal-cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+      color: #070d18;
+      font-weight: 700;
+      font-size: 13.5px;
+      border-radius: 8px;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+      cursor: pointer;
+      border: none;
+    }
+
+    #ambitn-darkglass-root .modal-whatsapp-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      background: #25d366;
+      color: #070d18;
+      font-weight: 700;
+      font-size: 13.5px;
+      border-radius: 8px;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(37, 211, 102, 0.35);
+      cursor: pointer;
+      border: none;
+    }
+
+    #ambitn-darkglass-root .modal-whatsapp-btn svg {
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+    }
+
+    /* ========================================================
+       📱 MOBILE OPTIMIZATION (≤ 768px)
+       ======================================================== */
+    @media (max-width: 992px) {
+      #ambitn-darkglass-root .hero-content-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+      #ambitn-darkglass-root .awards-glass-card {
+        margin: 10px 0 0 0;
+        max-width: 100%;
+      }
+      #ambitn-darkglass-root .hero-body-paragraphs,
+      #ambitn-darkglass-root .hero-sub-title,
+      #ambitn-darkglass-root .hero-gold-separator {
+        margin-left: 0;
+      }
+    }
+
+    @media (max-width: 768px) {
+      #ambitn-darkglass-root .hero-top-section {
+        padding: 22px 16px;
+      }
+
+      #ambitn-darkglass-root .hero-main-heading {
+        font-size: 27px;
+      }
+
+      #ambitn-darkglass-root .hero-sub-title {
+        font-size: 14px;
+        margin-left: 0;
+      }
+
+      #ambitn-darkglass-root .hero-gold-separator {
+        margin-left: 0;
+      }
+
+      #ambitn-darkglass-root .hero-body-paragraphs {
+        margin-left: 0;
+        font-size: 13px;
+      }
+
+      #ambitn-darkglass-root .awards-glass-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 18px 14px;
+        gap: 14px;
+      }
+
+      #ambitn-darkglass-root .awards-card-header {
+        justify-content: center;
+      }
+
+      #ambitn-darkglass-root .events-table-section {
+        padding: 18px 14px;
+      }
+
+      #ambitn-darkglass-root .table-controls-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+      }
+
+      #ambitn-darkglass-root .actions-right-wrap {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+      }
+
+      #ambitn-darkglass-root .search-input-pill-wrap {
+        width: 100%;
+      }
+
+      #ambitn-darkglass-root .instructions-link-btn {
+        width: 100%;
+        justify-content: center;
+      }
+
+      /* 📱 Transform Table into Dark Glass Mobile Cards */
+      #ambitn-darkglass-root .events-structured-table, 
+      #ambitn-darkglass-root .events-structured-table thead, 
+      #ambitn-darkglass-root .events-structured-table tbody, 
+      #ambitn-darkglass-root .events-structured-table th, 
+      #ambitn-darkglass-root .events-structured-table td, 
+      #ambitn-darkglass-root .events-structured-table tr {
+        display: block;
+      }
+
+      #ambitn-darkglass-root .events-structured-table thead {
+        display: none;
+      }
+
+      #ambitn-darkglass-root .table-container-card {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+      }
+
+      #ambitn-darkglass-root .events-structured-table tbody tr {
+        background: rgba(18, 30, 54, 0.75) !important;
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        border: 1px solid var(--glass-border);
+        border-radius: 16px;
+        margin-bottom: 14px;
+        padding: 16px 14px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+      }
+
+      #ambitn-darkglass-root .events-structured-table td {
+        padding: 6px 0;
+        border: none;
+      }
+
+      #ambitn-darkglass-root .td-sno-col {
+        display: inline-block !important;
+        background: rgba(245, 158, 11, 0.15);
+        border: 1px solid var(--accent-gold);
+        color: var(--accent-gold);
+        padding: 2px 10px;
+        border-radius: 20px;
+        font-size: 11px;
+        margin-bottom: 6px;
+        text-align: left;
+      }
+
+      #ambitn-darkglass-root .td-sno-col::before {
+        content: "EVENT #";
+        font-size: 10px;
+        margin-right: 4px;
+      }
+
+      #ambitn-darkglass-root .date-cell-wrap {
+        margin-top: 6px;
+        padding-top: 8px;
+        border-top: 1px dashed rgba(255, 255, 255, 0.1);
+      }
+
+      #ambitn-darkglass-root .venue-cell-wrap {
+        margin-top: 6px;
+      }
+    }
+  </style>
+
+  <!-- Hero Banner -->
+  <header class="hero-top-section">
+    <div class="hero-bg-visual"></div>
+
+    <div class="brand-header-row">
+      <div class="brand-logo-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+          <circle cx="12" cy="8.5" r="2" fill="#f59e0b"/>
+          <path d="M12 4v1.5m0 6v1.5M8 8.5H6.5m11 0H16"/>
+        </svg>
+      </div>
+      <div>
+        <h2 class="brand-title">AMBI TN</h2>
+        <p class="brand-tagline">Academic Meetings on Business &amp; Industry – Tamil Nadu</p>
+      </div>
+    </div>
+
+    <div class="hero-content-grid">
+      <div>
+        <div class="title-line-wrap">
+          <div class="cal-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="4" width="18" height="18" rx="3" ry="3"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+              <circle cx="8" cy="14" r="1" fill="currentColor"></circle>
+              <circle cx="12" cy="14" r="1" fill="currentColor"></circle>
+              <circle cx="16" cy="14" r="1" fill="currentColor"></circle>
+            </svg>
+          </div>
+          <div class="gold-vertical-divider"></div>
+          <h1 class="hero-main-heading">Academic Events</h1>
+        </div>
+
+        <p class="hero-sub-title">Conferences, Workshops, Seminars &amp; Academic Activities</p>
+        <div class="hero-gold-separator"></div>
+
+        <div class="hero-body-paragraphs">
+          <p>
+            AMBI Tamil Nadu organizes state-level conferences such as <strong>TN AMBICON</strong>, CME programmes, workshops, seminars, and postgraduate (PG) quizzes to promote academic learning and knowledge sharing.
+          </p>
+          <p>
+            The association also encourages academic excellence through awards and medals, including the <strong>Dr. Gopala Krishnan AMBI TN Medal</strong> and the <strong>Dr. Ebenezer Medal</strong>.
+          </p>
+        </div>
+      </div>
+
+      <!-- Awards Card -->
+      <div>
+        <div class="awards-glass-card">
+          <div class="trophy-badge-wrap">
+            <svg width="70" height="70" viewBox="0 0 64 64" fill="none">
+              <path d="M14 42C12 36 12 28 17 22M47 22C52 28 52 36 50 42" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="13" cy="24" r="2.5" fill="#f59e0b"/>
+              <circle cx="11" cy="32" r="2.5" fill="#f59e0b"/>
+              <circle cx="51" cy="24" r="2.5" fill="#f59e0b"/>
+              <circle cx="53" cy="32" r="2.5" fill="#f59e0b"/>
+              <path d="M22 14H42V28C42 34 37 39 32 39C27 39 22 34 22 28V14Z" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+              <path d="M22 18H16C14 18 13 20 13 22C13 26 16 29 22 29" stroke="#d97706" stroke-width="2" stroke-linecap="round"/>
+              <path d="M42 18H48C50 18 51 20 51 22C51 26 48 29 42 29" stroke="#d97706" stroke-width="2" stroke-linecap="round"/>
+              <path d="M29 39V46H35V39" fill="#d97706"/>
+              <path d="M23 46H41V51H23V46Z" fill="#b45309" stroke="#78350f" stroke-width="1.5"/>
+            </svg>
+          </div>
+
+          <div class="awards-details-wrap">
+            <div class="awards-card-header">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="8" r="6" fill="#f59e0b"/>
+                <path d="M9 13L7 22L12 19L17 22L15 13" fill="#d97706"/>
+              </svg>
+              <h3>Awards &amp; Medals</h3>
+            </div>
+
+            <div class="award-pill-item">
+              <span class="award-star-icon">&#9733;</span>
+              <span>Dr. Gopala Krishnan AMBI TN Medal</span>
+            </div>
+
+            <div class="award-pill-item">
+              <span class="award-star-icon">&#9733;</span>
+              <span>Dr. Ebenezer Medal</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Wave Graphic -->
+  <div class="decorative-wave-bar">
+    <svg class="wave-svg" viewBox="0 0 1200 60" preserveAspectRatio="none">
+      <path d="M0,0 C200,45 420,55 600,30 C780,5 980,40 1200,10 L1200,60 L0,60 Z" fill="rgba(10, 18, 34, 0.95)" />
+      <path d="M0,8 C220,52 440,58 620,33 C800,8 1000,42 1200,14" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.85" />
+      <path d="M0,15 C240,58 460,62 640,36 C820,10 1020,44 1200,18" fill="none" stroke="#38bdf8" stroke-width="2.5" opacity="0.6" />
+    </svg>
+  </div>
+
+  <!-- Events Section -->
+  <section class="events-table-section">
+    <div class="table-controls-row">
+      <div class="section-title-box">
+        <div class="section-gold-stripe"></div>
+        <h2>Upcoming Academic Events</h2>
+      </div>
+
+      <div class="actions-right-wrap">
+        <div class="search-input-pill-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="wixDarkSearch" class="search-input-pill" placeholder="Search by event or venue..." onkeyup="wixFilterDark()">
+        </div>
+
+        <span class="instructions-link-btn" onclick="openWixInstructions()">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+          </svg>
+          Instructions to Participants &nearr;
+        </span>
+      </div>
+    </div>
+
+    <!-- Structured Dark Glass Table (Transforms to Cards on Mobile) -->
+    <div class="table-container-card">
+      <table class="events-structured-table" id="wixDarkTable">
+        <thead>
+          <tr>
+            <th class="th-sno">S. NO.</th>
+            <th class="th-name">NAME OF THE EVENT</th>
+            <th class="th-date">DATE OF EVENT</th>
+            <th class="th-venue">VENUE</th>
+          </tr>
+        </thead>
+        <tbody id="wixEventsTableBody">
+          <!-- Dynamically populated with 20 events + WhatsApp share links -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Detail Modal -->
+  <div class="modal-backdrop" id="wixModalBackdrop">
+    <div class="modal-sheet">
+      <button class="modal-close-icon" onclick="closeWixModal()">&times;</button>
+      <h3 id="wixModalTitle">Event Details</h3>
+      <div id="wixModalBody" style="line-height: 1.7; color: #cbd5e1; font-size: 14px;"></div>
+      <div class="modal-actions-bar" id="wixModalActions"></div>
+    </div>
+  </div>
+
+  <script>
+    // 20 Complete Academic Events for AMBI TN with WhatsApp integration
+    const ambiTNMasterEvents = [
+      {
+        id: "ev-1",
+        eventName: "AMBITN chapter Conducted 3rd TN state AMBI Conference (TAMBICON 2026)",
+        tags: ["LCMS", "ABG", "ISO CERTIFICATION", "AI"],
+        workshopNote: "4 workshops on",
+        eventDate: "26th Oct to 28th Oct 2026",
+        venue: "Madras Medical College, Chennai",
+        organizer: "Organised by Instt of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-2",
+        eventName: "A two-day CME-cum-hands-on workshop on “Molecular Oncology – Translating Genomics into Clinical Medicine”",
+        tags: ["GENOMICS", "NGS", "TRANSLATIONAL ONCOLOGY"],
+        workshopNote: "Hands-on clinical modules on",
+        eventDate: "29th and 30th October 2026",
+        venue: "Thanjavur Medical College",
+        organizer: "Department of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-3",
+        eventName: "CME & Workshop on “POCT – Decoded”",
+        tags: ["POCT", "BEDSIDE TESTING", "QUALITY ASSURANCE"],
+        workshopNote: "Interactive masterclass on",
+        eventDate: "Friday 13th November 2026 (8:30 AM – 4:30 PM)",
+        venue: "Manimuthar Lecture Hall, Tirunelveli Medical College",
+        organizer: "Dept of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-4",
+        eventName: "Hands-on Workshop on Advanced HPLC in Hemoglobinopathies & Variant Analysis",
+        tags: ["HPLC", "HEMOGLOBINOPATHIES", "THALASSEMIA"],
+        workshopNote: "Practical laboratory training on",
+        eventDate: "20th to 21st November 2026",
+        venue: "Stanley Medical College, Chennai",
+        organizer: "Department of Clinical Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-5",
+        eventName: "State-Level Symposium on “Artificial Intelligence and Machine Learning in Clinical Laboratory Medicine”",
+        tags: ["AI DIAGNOSTICS", "LAB AUTOMATION", "PREDICTIVE LAB"],
+        workshopNote: "Keynote talks & demos on",
+        eventDate: "28th November 2026",
+        venue: "PSG Institute of Medical Sciences & Research, Coimbatore",
+        organizer: "Dept of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-6",
+        eventName: "National Workshop on Clinical Enzymology and Diagnostic Biomarkers of Organ Dysfunction",
+        tags: ["ENZYMOLOGY", "CARDIAC MARKERS", "HEPATIC PROFILES"],
+        workshopNote: "Clinical case interpretation &",
+        eventDate: "5th to 6th December 2026",
+        venue: "Christian Medical College (CMC), Vellore",
+        organizer: "Department of Clinical Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-7",
+        eventName: "CME on Internal Quality Control (IQC) & EQAS Protocols as per NABL ISO 15189:2022",
+        tags: ["NABL", "ISO 15189:2022", "EQAS", "SIGMA METRICS"],
+        workshopNote: "Accreditation guidelines &",
+        eventDate: "12th December 2026",
+        venue: "Kilpauk Medical College, Chennai",
+        organizer: "Institute of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-8",
+        eventName: "Hands-on Workshop on Capillary & Gel Electrophoresis in Paraproteinemia & Gammopathies",
+        tags: ["ELECTROPHORESIS", "IMMUNOFIXATION", "MULTIPLE MYELOMA"],
+        workshopNote: "Diagnostic evaluation of",
+        eventDate: "18th to 19th December 2026",
+        venue: "Madurai Medical College, Madurai",
+        organizer: "Department of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-9",
+        eventName: "Molecular Diagnostics Workshop: Real-Time PCR (qPCR) & Primer Design for Clinical Labs",
+        tags: ["RT-PCR", "PRIMER DESIGN", "VIRAL LOAD TESTING"],
+        workshopNote: "Hands-on bench work on",
+        eventDate: "8th to 9th January 2027",
+        venue: "Government Mohan Kumaramangalam Medical College, Salem",
+        organizer: "Dept of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-10",
+        eventName: "State-Level Post Graduate Biochemistry Quiz 2027: Dr. Gopala Krishnan Memorial Trophy",
+        tags: ["PG QUIZ", "MEMORIAL TROPHY", "CLINICAL VIGNETTES"],
+        workshopNote: "Statewide inter-collegiate",
+        eventDate: "23rd January 2027",
+        venue: "Madras Medical College, Chennai",
+        organizer: "Auditorium, Instt of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-11",
+        eventName: "Masterclass on Tandem Mass Spectrometry (LC-MS/MS) for Inborn Errors of Metabolism",
+        tags: ["LC-MS/MS", "NEWBORN SCREENING", "IEM WORKUP"],
+        workshopNote: "Advanced screening on",
+        eventDate: "5th to 6th February 2027",
+        venue: "JIPMER Academic Centre, Puducherry",
+        organizer: "Department of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-12",
+        eventName: "CME & Interactive Case Discussions on Endocrine Disorders: Thyroid, Adrenal & Fertility",
+        tags: ["ENDOCRINOLOGY", "HORMONAL ASSAYS", "CLIA / ECLIA"],
+        workshopNote: "Analytical nuances in",
+        eventDate: "14th February 2027",
+        venue: "Government Vellore Medical College, Adukkamparai",
+        organizer: "Dept of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-13",
+        eventName: "Hands-on Workshop on Arterial Blood Gas (ABG) & Acid-Base Balance Interpretation in ICU",
+        tags: ["ABG ANALYSIS", "ACID-BASE", "ELECTROLYTE DISORDERS"],
+        workshopNote: "Practical benchwork on",
+        eventDate: "20th February 2027",
+        venue: "Coimbatore Medical College Hospital, Coimbatore",
+        organizer: "Dept of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-14",
+        eventName: "Symposium on Pediatric Clinical Biochemistry & Neonatal Hyperbilirubinemia Protocols",
+        tags: ["PEDIATRIC LAB", "NEONATAL SCREENING", "MICROMETHODS"],
+        workshopNote: "Diagnostic updates on",
+        eventDate: "6th March 2027",
+        venue: "Government Theni Medical College, Theni",
+        organizer: "Department of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-15",
+        eventName: "Hands-on Workshop on Autoantibody Diagnostics: ANA by IIF & Line Immunoblotting",
+        tags: ["ANA IIF", "AUTOIMMUNE PROFILES", "LINE BLOT"],
+        workshopNote: "Fluorescence pattern reading &",
+        eventDate: "19th to 20th March 2027",
+        venue: "Sri Ramachandra Institute of Higher Education (SRIHER), Porur",
+        organizer: "Dept of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-16",
+        eventName: "CME on Therapeutic Drug Monitoring (TDM) & Toxicology Screening in Emergency Medicine",
+        tags: ["TDM", "IMMUNOSUPPRESSANTS", "TOXICOLOGY"],
+        workshopNote: "Clinical guidelines on",
+        eventDate: "27th March 2027",
+        venue: "K.A.P. Viswanatham Government Medical College, Trichy",
+        organizer: "Dept of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-17",
+        eventName: "Hands-on Training in Flow Cytometry Principles & Immunophenotyping Applications",
+        tags: ["FLOW CYTOMETRY", "IMMUNOPHENOTYPING", "GATING STRATEGIES"],
+        workshopNote: "Practical cytometer training on",
+        eventDate: "9th to 10th April 2027",
+        venue: "Chettinad Hospital & Research Institute, Kelambakkam",
+        organizer: "Dept of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-18",
+        eventName: "National Conference on Advances in Clinical Enzymology & Cancer Metabolism (AMBICON-South 2027)",
+        tags: ["AMBICON SOUTH", "CANCER METABOLISM", "PLENARY SESSIONS"],
+        workshopNote: "Annual national summit with",
+        eventDate: "23rd to 25th April 2027",
+        venue: "Madras Medical College, Chennai",
+        organizer: "AMBI TN State Chapter",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-19",
+        eventName: "Workshop on Total Quality Management (TQM), Lean Six Sigma & Method Verification in Clinical Labs",
+        tags: ["LEAN SIX SIGMA", "TQM", "METHOD VALIDATION"],
+        workshopNote: "Process optimization with",
+        eventDate: "8th May 2027",
+        venue: "Kanyakumari Government Medical College, Asaripallam",
+        organizer: "Dept of Biochemistry",
+        eventLink: "https://www.ambitn.org"
+      },
+      {
+        id: "ev-20",
+        eventName: "Annual AMBI TN Research Colloquium: Oral Paper Presentations & Dr. Ebenezer Gold Medal Award",
+        tags: ["RESEARCH PAPERS", "DR. EBENEZER MEDAL", "AWARDS"],
+        workshopNote: "State scientific session with",
+        eventDate: "21st to 22nd May 2027",
+        venue: "Chengalpattu Government Medical College, Chengalpattu",
+        organizer: "AMBI TN State Chapter",
+        eventLink: "https://www.ambitn.org"
+      }
+    ];
+
+    let currentEventsDisplayList = [...ambiTNMasterEvents];
+
+    // Helper: Escape HTML strings
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    // Helper: Build WhatsApp Share URL
+    function getWhatsAppShareUrl(event) {
+      const title = event.eventName || 'AMBI TN Academic Event';
+      const date = event.eventDate || 'Date TBA';
+      const venue = event.venue || 'Tamil Nadu';
+      const link = event.eventLink || 'https://www.ambitn.org';
+
+      const message = `*AMBI TN Academic Event Announcement*\n\n` +
+                      `📌 *${title}*\n` +
+                      `📅 *Date:* ${date}\n` +
+                      `📍 *Venue:* ${venue}\n\n` +
+                      `🔗 *Details & Registration:* ${link}\n\n` +
+                      `_Association of Medical Biochemists of India – Tamil Nadu Chapter_`;
+
+      return `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+    }
+
+    // Render table rows
+    function renderAmbiEvents(events) {
+      const tbody = document.getElementById('wixEventsTableBody');
+      tbody.innerHTML = '';
+
+      if (!events || events.length === 0) {
+        tbody.innerHTML = `
+          <tr>
+            <td colspan="4" class="table-status-cell">
+              <div style="font-size: 26px; margin-bottom: 8px;">📅</div>
+              <div style="color: #94a3b8; font-weight: 600;">No matching events found.</div>
+              <div style="font-size: 12px; color: #64748b; margin-top: 4px;">Try a different search term or check all events.</div>
+            </td>
+          </tr>
+        `;
+        return;
+      }
+
+      events.forEach((item, index) => {
+        const title = item.eventName || 'Untitled Event';
+        const date = item.eventDate || 'Date TBA';
+        const venue = item.venue || 'Venue TBA';
+        const organizer = item.organizer || '';
+        const note = item.workshopNote || 'Workshops on';
+        const tags = Array.isArray(item.tags) ? item.tags : [];
+        const waUrl = getWhatsAppShareUrl(item);
+
+        const tr = document.createElement('tr');
+
+        // Tags HTML
+        let tagsHtml = '';
+        if (tags.length > 0) {
+          tagsHtml = `
+            <div class="event-workshops-tagline">
+              <span>${escapeHtml(note)}</span>
+              ${tags.map(t => `<span class="badge-highlight">${escapeHtml(t)}</span>`).join('')}
+              <a href="${waUrl}" target="_blank" rel="noopener noreferrer" class="whatsapp-share-btn" title="Share this event on WhatsApp" onclick="event.stopPropagation();">
+                <svg viewBox="0 0 24 24">
+                  <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.63C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.04 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19.02L7.55 18.84L4.44 19.66L5.27 16.63L5.07 16.31C4.24 14.99 3.81 13.47 3.81 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.06 7.42C8.89 7.42 8.62 7.49 8.38 7.74C8.15 8 7.5 8.61 7.5 9.85C7.5 11.09 8.4 12.28 8.53 12.45C8.66 12.62 10.3 15.15 12.8 16.23C13.4 16.48 13.86 16.64 14.23 16.76C14.83 16.95 15.38 16.92 15.81 16.86C16.3 16.79 17.31 16.25 17.52 15.66C17.73 15.07 17.73 14.56 17.67 14.46C17.61 14.36 17.44 14.3 17.18 14.17C16.93 14.04 15.7 13.44 15.47 13.35C15.24 13.27 15.08 13.23 14.91 13.48C14.74 13.73 14.27 14.3 14.13 14.46C13.99 14.63 13.86 14.65 13.6 14.52C13.35 14.4 12.53 14.13 11.56 13.26C10.8 12.58 10.28 11.75 10.15 11.5C10.02 11.25 10.14 11.12 10.26 11C10.38 10.88 10.52 10.7 10.65 10.55C10.78 10.4 10.82 10.29 10.91 10.12C11 9.95 10.95 9.81 10.89 9.68C10.82 9.56 10.31 8.32 10.1 7.81C9.89 7.31 9.68 7.38 9.53 7.37C9.39 7.36 9.22 7.42 9.06 7.42Z"/>
+                </svg>
+                Share on WhatsApp
+              </a>
+            </div>
+          `;
+        }
+
+        tr.innerHTML = `
+          <td class="td-sno-col">${index + 1}</td>
+          <td>
+            <a href="javascript:void(0)" class="event-entry-title" onclick="openWixEventModal(${index})">
+              <span>${escapeHtml(title)}</span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+            ${tagsHtml}
+          </td>
+          <td>
+            <div class="date-cell-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>${escapeHtml(date)}</span>
+            </div>
+          </td>
+          <td>
+            <div class="venue-cell-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <div>
+                <div class="venue-name">${escapeHtml(venue)}</div>
+                ${organizer ? `<div class="venue-sub">${escapeHtml(organizer)}</div>` : ''}
+              </div>
+            </div>
+          </td>
+        `;
+
+        tbody.appendChild(tr);
+      });
+    }
+
+    // Modal popup handler
+    function openWixEventModal(index) {
+      const item = currentEventsDisplayList[index];
+      if (!item) return;
+
+      const modal = document.getElementById('wixModalBackdrop');
+      const titleElem = document.getElementById('wixModalTitle');
+      const bodyElem = document.getElementById('wixModalBody');
+      const actionsElem = document.getElementById('wixModalActions');
+
+      titleElem.textContent = item.eventName;
+      bodyElem.innerHTML = `
+        <div class="modal-info-row">
+          <strong>📅 Date:</strong> <span>${escapeHtml(item.eventDate)}</span>
+        </div>
+        <div class="modal-info-row">
+          <strong>📍 Venue:</strong> <span>${escapeHtml(item.venue)}</span>
+        </div>
+        ${item.organizer ? `<div class="modal-info-row"><strong>🏛️ Department:</strong> <span>${escapeHtml(item.organizer)}</span></div>` : ''}
+        ${item.tags && item.tags.length ? `
+          <div class="modal-info-row" style="margin-top: 14px;">
+            <strong>Featured Topics:</strong>
+            <div style="margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px;">
+              ${item.tags.map(t => `<span class="badge-highlight">${escapeHtml(t)}</span>`).join('')}
+            </div>
+          </div>
+        ` : ''}
+      `;
+
+      const waUrl = getWhatsAppShareUrl(item);
+      actionsElem.innerHTML = `
+        <a href="${waUrl}" target="_blank" rel="noopener noreferrer" class="modal-whatsapp-btn">
+          <svg viewBox="0 0 24 24">
+            <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.63C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.04 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19.02L7.55 18.84L4.44 19.66L5.27 16.63L5.07 16.31C4.24 14.99 3.81 13.47 3.81 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.06 7.42C8.89 7.42 8.62 7.49 8.38 7.74C8.15 8 7.5 8.61 7.5 9.85C7.5 11.09 8.4 12.28 8.53 12.45C8.66 12.62 10.3 15.15 12.8 16.23C13.4 16.48 13.86 16.64 14.23 16.76C14.83 16.95 15.38 16.92 15.81 16.86C16.3 16.79 17.31 16.25 17.52 15.66C17.73 15.07 17.73 14.56 17.67 14.46C17.61 14.36 17.44 14.3 17.18 14.17C16.93 14.04 15.7 13.44 15.47 13.35C15.24 13.27 15.08 13.23 14.91 13.48C14.74 13.73 14.27 14.3 14.13 14.46C13.99 14.63 13.86 14.65 13.6 14.52C13.35 14.4 12.53 14.13 11.56 13.26C10.8 12.58 10.28 11.75 10.15 11.5C10.02 11.25 10.14 11.12 10.26 11C10.38 10.88 10.52 10.7 10.65 10.55C10.78 10.4 10.82 10.29 10.91 10.12C11 9.95 10.95 9.81 10.89 9.68C10.82 9.56 10.31 8.32 10.1 7.81C9.89 7.31 9.68 7.38 9.53 7.37C9.39 7.36 9.22 7.42 9.06 7.42Z"/>
+          </svg>
+          Share on WhatsApp
+        </a>
+        <a href="${item.eventLink || 'https://www.ambitn.org'}" target="_blank" rel="noopener noreferrer" class="modal-cta-btn">
+          Visit Event Page &nearr;
+        </a>
+      `;
+
+      modal.classList.add('open');
+    }
+
+    function closeWixModal() {
+      const modal = document.getElementById('wixModalBackdrop');
+      if (modal) modal.classList.remove('open');
+    }
+
+    function openWixInstructions() {
+      const modal = document.getElementById('wixModalBackdrop');
+      document.getElementById('wixModalTitle').textContent = 'Instructions to Participants';
+      document.getElementById('wixModalBody').innerHTML = `
+        <ul style="padding-left: 20px; line-height: 1.8; color: #cbd5e1;">
+          <li>All delegates are requested to complete online registration prior to the event dates.</li>
+          <li>Accredited certificates with TN Medical Council (TNMC) credit hours will be issued upon completion.</li>
+          <li>For workshops featuring hands-on chromatography (LCMS, HPLC) and molecular diagnostics, lab coats are recommended.</li>
+          <li>Use the <strong>Share on WhatsApp</strong> button to inform departmental colleagues and postgraduate scholars.</li>
+        </ul>
+      `;
+      document.getElementById('wixModalActions').innerHTML = `
+        <button onclick="closeWixModal()" class="modal-cta-btn" style="background: var(--accent-gold); color: #000;">
+          Close
+        </button>
+      `;
+      modal.classList.add('open');
+    }
+
+    // Live search filter across the 20 events
+    function wixFilterDark() {
+      const q = document.getElementById('wixDarkSearch').value.toLowerCase().trim();
+      if (!q) {
+        currentEventsDisplayList = [...ambiTNMasterEvents];
+      } else {
+        currentEventsDisplayList = ambiTNMasterEvents.filter(ev => {
+          const text = [
+            ev.eventName,
+            ev.venue,
+            ev.organizer,
+            ev.eventDate,
+            ...(ev.tags || [])
+          ].join(' ').toLowerCase();
+          return text.indexOf(q) > -1;
+        });
+      }
+      renderAmbiEvents(currentEventsDisplayList);
+    }
+
+    // Try merging live events from API if any new ones were added in CMS
+    async function syncWithWixAPI() {
+      try {
+        const res = await fetch('https://www.ambitn.org/_functions/events', {
+          headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+          const cmsData = await res.json();
+          if (Array.isArray(cmsData) && cmsData.length > 0) {
+            const validCms = cmsData.filter(d => d && (d.eventName || d.title));
+            if (validCms.length > 0) {
+              // Add fresh CMS items to top of list
+              validCms.forEach(c => {
+                const exists = ambiTNMasterEvents.some(m => m.eventName.toLowerCase() === (c.eventName || '').toLowerCase());
+                if (!exists) {
+                  ambiTNMasterEvents.unshift({
+                    id: c.id || ('cms-' + Math.random()),
+                    eventName: c.eventName || c.title,
+                    eventDate: c.eventDate || c.date || 'Upcoming',
+                    venue: c.venue || 'Tamil Nadu',
+                    organizer: 'AMBI TN Chapter',
+                    tags: ['CME', 'WORKSHOP'],
+                    workshopNote: 'Registered event on',
+                    eventLink: c.eventLink || 'https://www.ambitn.org'
+                  });
+                }
+              });
+              currentEventsDisplayList = [...ambiTNMasterEvents];
+              renderAmbiEvents(currentEventsDisplayList);
+            }
+          }
+        }
+      } catch (err) {
+        // Fallback silently remains on the 20 master events
+      }
+    }
+
+    // Initial render & sync
+    renderAmbiEvents(currentEventsDisplayList);
+    syncWithWixAPI();
+
+    // Close modal on background click
+    document.getElementById('wixModalBackdrop').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeWixModal();
+      }
+    });
+  </script>
+</div>
+
+</body></html>

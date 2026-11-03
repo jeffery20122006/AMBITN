@@ -1,0 +1,949 @@
+<!-- 
+  AMBI TN - Academic Events Section (Dark Glassy Theme - Desktop & Mobile Compatible)
+  Paste this entire code block into Wix Studio / Wix Editor's "Embed HTML" element.
+-->
+<div id="ambitn-darkglass-root">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+    rel="stylesheet">
+
+  <style>
+    #ambitn-darkglass-root {
+      --bg-dark: #070d18;
+      --glass-surface: rgba(14, 24, 44, 0.75);
+      --glass-border: rgba(255, 255, 255, 0.1);
+      --glass-border-gold: rgba(245, 158, 11, 0.4);
+      --accent-gold: #f59e0b;
+      --accent-cyan: #38bdf8;
+      --text-white: #ffffff;
+      --text-secondary: #cbd5e1;
+      --text-muted: #94a3b8;
+
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #080f1e;
+      background-image: radial-gradient(circle at 10% 20%, rgba(30, 58, 138, 0.4) 0%, transparent 40%),
+        radial-gradient(circle at 90% 15%, rgba(245, 158, 11, 0.15) 0%, transparent 35%),
+        radial-gradient(circle at 50% 90%, rgba(14, 165, 233, 0.18) 0%, transparent 45%),
+        #080f1e;
+      color: var(--text-white);
+      border-radius: 24px;
+      border: 1px solid var(--glass-border);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      line-height: 1.5;
+    }
+
+    #ambitn-darkglass-root * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Top Hero Header Section */
+    #ambitn-darkglass-root .hero-top-section {
+      position: relative;
+      padding: 36px 42px 28px 42px;
+      background: linear-gradient(180deg, rgba(18, 32, 60, 0.55) 0%, rgba(10, 18, 34, 0.75) 100%);
+      border-bottom: 1px solid var(--glass-border);
+      overflow: hidden;
+    }
+
+    #ambitn-darkglass-root .hero-bg-visual {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 52%;
+      background-image: url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80');
+      background-size: cover;
+      background-position: center right;
+      mask-image: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0.85) 75%);
+      -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0.85) 75%);
+      opacity: 0.35;
+      pointer-events: none;
+      mix-blend-mode: luminosity;
+    }
+
+    #ambitn-darkglass-root .brand-header-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 24px;
+      position: relative;
+      z-index: 2;
+    }
+
+    #ambitn-darkglass-root .brand-logo-icon {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, rgba(15, 30, 56, 0.9) 0%, rgba(26, 48, 88, 0.9) 100%);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent-gold);
+      box-shadow: 0 0 20px rgba(245, 158, 11, 0.25);
+    }
+
+    #ambitn-darkglass-root .brand-title {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--text-white);
+      letter-spacing: 0.5px;
+    }
+
+    #ambitn-darkglass-root .brand-tagline {
+      font-size: 11.5px;
+      font-weight: 500;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    #ambitn-darkglass-root .hero-content-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 32px;
+      position: relative;
+      z-index: 2;
+      align-items: center;
+    }
+
+    #ambitn-darkglass-root .title-line-wrap {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 6px;
+    }
+
+    #ambitn-darkglass-root .cal-icon-box {
+      width: 40px;
+      height: 40px;
+      color: var(--accent-gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      filter: drop-shadow(0 0 8px rgba(245, 158, 11, 0.4));
+    }
+
+    #ambitn-darkglass-root .cal-icon-box svg {
+      width: 34px;
+      height: 34px;
+    }
+
+    #ambitn-darkglass-root .gold-vertical-divider {
+      width: 4px;
+      height: 36px;
+      background: linear-gradient(to bottom, #fbbf24, #d97706);
+      border-radius: 3px;
+      box-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
+    }
+
+    #ambitn-darkglass-root .hero-main-heading {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 36px;
+      font-weight: 700;
+      color: var(--text-white);
+      letter-spacing: -0.5px;
+    }
+
+    #ambitn-darkglass-root .hero-sub-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--accent-cyan);
+      font-style: italic;
+      margin-bottom: 12px;
+      margin-left: 54px;
+    }
+
+    #ambitn-darkglass-root .hero-gold-separator {
+      width: 65px;
+      height: 3px;
+      background: linear-gradient(90deg, #f59e0b, transparent);
+      border-radius: 2px;
+      margin-bottom: 16px;
+      margin-left: 54px;
+    }
+
+    #ambitn-darkglass-root .hero-body-paragraphs {
+      margin-left: 54px;
+      font-size: 13.5px;
+      color: var(--text-secondary);
+      line-height: 1.65;
+    }
+
+    #ambitn-darkglass-root .hero-body-paragraphs p {
+      margin-bottom: 10px;
+    }
+
+    #ambitn-darkglass-root .hero-body-paragraphs strong {
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    /* Dark Glass Awards Card */
+    #ambitn-darkglass-root .awards-glass-card {
+      background: rgba(18, 30, 54, 0.65);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--glass-border-gold);
+      border-radius: 20px;
+      padding: 22px 26px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.12), 0 0 20px rgba(245, 158, 11, 0.1);
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      max-width: 480px;
+      margin-left: auto;
+    }
+
+    #ambitn-darkglass-root .trophy-badge-wrap {
+      width: 80px;
+      height: 80px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle, rgba(245, 158, 11, 0.25) 0%, transparent 70%);
+      filter: drop-shadow(0 0 12px rgba(245, 158, 11, 0.4));
+    }
+
+    #ambitn-darkglass-root .awards-details-wrap {
+      flex: 1;
+    }
+
+    #ambitn-darkglass-root .awards-card-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    #ambitn-darkglass-root .awards-card-header h3 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--accent-gold);
+    }
+
+    #ambitn-darkglass-root .award-pill-item {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      border-radius: 50px;
+      padding: 8px 16px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    #ambitn-darkglass-root .award-star-icon {
+      color: var(--accent-gold);
+    }
+
+    /* Wave graphic transition */
+    #ambitn-darkglass-root .decorative-wave-bar {
+      width: 100%;
+      height: 40px;
+      position: relative;
+      overflow: hidden;
+      background: rgba(10, 18, 34, 0.95);
+    }
+
+    #ambitn-darkglass-root .wave-svg {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Table Section */
+    #ambitn-darkglass-root .events-table-section {
+      padding: 26px 42px 42px 42px;
+    }
+
+    #ambitn-darkglass-root .table-controls-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 22px;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    #ambitn-darkglass-root .section-title-box {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    #ambitn-darkglass-root .section-gold-stripe {
+      width: 4px;
+      height: 26px;
+      background: linear-gradient(to bottom, #fbbf24, #d97706);
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
+    }
+
+    #ambitn-darkglass-root .section-title-box h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 25px;
+      font-weight: 700;
+      color: var(--text-white);
+    }
+
+    #ambitn-darkglass-root .actions-right-wrap {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    #ambitn-darkglass-root .search-input-pill-wrap {
+      position: relative;
+      width: 260px;
+    }
+
+    #ambitn-darkglass-root .search-input-pill-wrap svg {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 15px;
+      height: 15px;
+      color: var(--text-muted);
+    }
+
+    #ambitn-darkglass-root .search-input-pill {
+      width: 100%;
+      padding: 8px 14px 8px 36px;
+      background: rgba(18, 30, 54, 0.7);
+      border: 1px solid var(--glass-border);
+      border-radius: 50px;
+      font-size: 13px;
+      color: var(--text-white);
+      outline: none;
+    }
+
+    #ambitn-darkglass-root .search-input-pill:focus {
+      border-color: var(--accent-cyan);
+      box-shadow: 0 0 12px rgba(56, 189, 248, 0.25);
+    }
+
+    #ambitn-darkglass-root .instructions-link-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--accent-cyan);
+      text-decoration: none;
+      cursor: pointer;
+      padding: 8px 14px;
+      border-radius: 50px;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+    }
+
+    /* Structured Dark Glass Table */
+    #ambitn-darkglass-root .table-container-card {
+      background: rgba(13, 23, 42, 0.65);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--glass-border);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    }
+
+    #ambitn-darkglass-root .events-structured-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    #ambitn-darkglass-root .events-structured-table thead tr {
+      background: rgba(22, 36, 65, 0.85);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    #ambitn-darkglass-root .events-structured-table th {
+      padding: 14px 18px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      color: var(--accent-gold);
+      border-right: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    #ambitn-darkglass-root .events-structured-table th:last-child {
+      border-right: none;
+    }
+
+    #ambitn-darkglass-root .th-sno {
+      width: 70px;
+      text-align: center;
+    }
+
+    #ambitn-darkglass-root .th-name {
+      width: 48%;
+    }
+
+    #ambitn-darkglass-root .th-date {
+      width: 23%;
+    }
+
+    #ambitn-darkglass-root .th-venue {
+      width: 25%;
+    }
+
+    #ambitn-darkglass-root .events-structured-table tbody tr {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    #ambitn-darkglass-root .events-structured-table tbody tr:nth-child(even) {
+      background-color: rgba(18, 30, 54, 0.35);
+    }
+
+    #ambitn-darkglass-root .events-structured-table td {
+      padding: 16px 18px;
+      font-size: 13.5px;
+      color: var(--text-secondary);
+      vertical-align: middle;
+      border-right: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    #ambitn-darkglass-root .events-structured-table td:last-child {
+      border-right: none;
+    }
+
+    #ambitn-darkglass-root .td-sno-col {
+      text-align: center;
+      font-weight: 800;
+      color: var(--accent-gold);
+    }
+
+    #ambitn-darkglass-root .event-entry-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #60a5fa;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      line-height: 1.4;
+      text-decoration: none;
+    }
+
+    #ambitn-darkglass-root .event-workshops-tagline {
+      display: block;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    #ambitn-darkglass-root .badge-highlight {
+      background: rgba(14, 165, 233, 0.15);
+      border: 1px solid rgba(14, 165, 233, 0.35);
+      color: var(--accent-cyan);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 11px;
+      display: inline-block;
+      margin: 1px 2px;
+    }
+
+    #ambitn-darkglass-root .badge-upcoming-tag {
+      background: rgba(34, 197, 94, 0.18);
+      border: 1px solid rgba(34, 197, 94, 0.45);
+      color: #4ade80;
+      padding: 2px 7px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 11px;
+      margin-left: 6px;
+    }
+
+    #ambitn-darkglass-root .date-cell-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    #ambitn-darkglass-root .date-cell-wrap svg {
+      width: 17px;
+      height: 17px;
+      color: var(--accent-cyan);
+      flex-shrink: 0;
+    }
+
+    #ambitn-darkglass-root .time-slot-sub {
+      display: block;
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    #ambitn-darkglass-root .venue-cell-wrap {
+      display: flex;
+      align-items: flex-start;
+      gap: 7px;
+      color: var(--text-secondary);
+    }
+
+    #ambitn-darkglass-root .venue-cell-wrap svg {
+      width: 16px;
+      height: 16px;
+      color: var(--accent-gold);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    #ambitn-darkglass-root .venue-name {
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    #ambitn-darkglass-root .venue-sub {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    /* ========================================================
+       📱 MOBILE OPTIMIZATION (≤ 768px)
+       ======================================================== */
+    @media (max-width: 992px) {
+      #ambitn-darkglass-root .hero-content-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      #ambitn-darkglass-root .awards-glass-card {
+        margin: 10px 0 0 0;
+        max-width: 100%;
+      }
+
+      #ambitn-darkglass-root .hero-body-paragraphs,
+      #ambitn-darkglass-root .hero-sub-title,
+      #ambitn-darkglass-root .hero-gold-separator {
+        margin-left: 0;
+      }
+    }
+
+    @media (max-width: 768px) {
+      #ambitn-darkglass-root .hero-top-section {
+        padding: 22px 16px;
+      }
+
+      #ambitn-darkglass-root .hero-main-heading {
+        font-size: 27px;
+      }
+
+      #ambitn-darkglass-root .hero-sub-title {
+        font-size: 14px;
+        margin-left: 0;
+      }
+
+      #ambitn-darkglass-root .hero-gold-separator {
+        margin-left: 0;
+      }
+
+      #ambitn-darkglass-root .hero-body-paragraphs {
+        margin-left: 0;
+        font-size: 13px;
+      }
+
+      #ambitn-darkglass-root .awards-glass-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 18px 14px;
+        gap: 14px;
+      }
+
+      #ambitn-darkglass-root .awards-card-header {
+        justify-content: center;
+      }
+
+      #ambitn-darkglass-root .events-table-section {
+        padding: 18px 14px;
+      }
+
+      #ambitn-darkglass-root .table-controls-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+      }
+
+      #ambitn-darkglass-root .actions-right-wrap {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+      }
+
+      #ambitn-darkglass-root .search-input-pill-wrap {
+        width: 100%;
+      }
+
+      #ambitn-darkglass-root .instructions-link-btn {
+        width: 100%;
+        justify-content: center;
+      }
+
+      /* 📱 Transform Table into Dark Glass Mobile Cards */
+      #ambitn-darkglass-root .events-structured-table,
+      #ambitn-darkglass-root .events-structured-table thead,
+      #ambitn-darkglass-root .events-structured-table tbody,
+      #ambitn-darkglass-root .events-structured-table th,
+      #ambitn-darkglass-root .events-structured-table td,
+      #ambitn-darkglass-root .events-structured-table tr {
+        display: block;
+      }
+
+      #ambitn-darkglass-root .events-structured-table thead {
+        display: none;
+      }
+
+      #ambitn-darkglass-root .table-container-card {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+      }
+
+      #ambitn-darkglass-root .events-structured-table tbody tr {
+        background: rgba(18, 30, 54, 0.75) !important;
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        border: 1px solid var(--glass-border);
+        border-radius: 16px;
+        margin-bottom: 14px;
+        padding: 16px 14px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+      }
+
+      #ambitn-darkglass-root .events-structured-table td {
+        padding: 6px 0;
+        border: none;
+      }
+
+      #ambitn-darkglass-root .td-sno-col {
+        display: inline-block !important;
+        background: rgba(245, 158, 11, 0.15);
+        border: 1px solid var(--accent-gold);
+        color: var(--accent-gold);
+        padding: 2px 10px;
+        border-radius: 20px;
+        font-size: 11px;
+        margin-bottom: 6px;
+        text-align: left;
+      }
+
+      #ambitn-darkglass-root .td-sno-col::before {
+        content: "EVENT #";
+        font-size: 10px;
+        margin-right: 4px;
+      }
+
+      #ambitn-darkglass-root .date-cell-wrap {
+        margin-top: 6px;
+        padding-top: 8px;
+        border-top: 1px dashed rgba(255, 255, 255, 0.1);
+      }
+
+      #ambitn-darkglass-root .venue-cell-wrap {
+        margin-top: 6px;
+      }
+    }
+  </style>
+
+  <!-- Hero Banner -->
+  <header class="hero-top-section">
+    <div class="hero-bg-visual"></div>
+
+    <div class="brand-header-row">
+      <div class="brand-logo-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+          <circle cx="12" cy="8.5" r="2" fill="#f59e0b" />
+          <path d="M12 4v1.5m0 6v1.5M8 8.5H6.5m11 0H16" />
+        </svg>
+      </div>
+      <div>
+        <h2 class="brand-title">AMBI TN</h2>
+        <p class="brand-tagline">Academic Meetings on Business &amp; Industry – Tamil Nadu</p>
+      </div>
+    </div>
+
+    <div class="hero-content-grid">
+      <div>
+        <div class="title-line-wrap">
+          <div class="cal-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="4" width="18" height="18" rx="3" ry="3"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+              <circle cx="8" cy="14" r="1" fill="currentColor"></circle>
+              <circle cx="12" cy="14" r="1" fill="currentColor"></circle>
+              <circle cx="16" cy="14" r="1" fill="currentColor"></circle>
+            </svg>
+          </div>
+          <div class="gold-vertical-divider"></div>
+          <h1 class="hero-main-heading">Academic Events</h1>
+        </div>
+
+        <p class="hero-sub-title">Conferences, Workshops, Seminars &amp; Academic Activities</p>
+        <div class="hero-gold-separator"></div>
+
+        <div class="hero-body-paragraphs">
+          <p>
+            AMBI Tamil Nadu organizes state-level conferences such as <strong>TN AMBICON</strong>, CME programmes,
+            workshops, seminars, and postgraduate (PG) quizzes to promote academic learning and knowledge sharing.
+          </p>
+          <p>
+            The association also encourages academic excellence through awards and medals, including the <strong>Dr.
+              Gopala Krishnan AMBI TN Medal</strong> and the <strong>Dr. Ebenezer Medal</strong>.
+          </p>
+        </div>
+      </div>
+
+      <!-- Awards Card -->
+      <div>
+        <div class="awards-glass-card">
+          <div class="trophy-badge-wrap">
+            <svg width="70" height="70" viewBox="0 0 64 64" fill="none">
+              <path d="M14 42C12 36 12 28 17 22M47 22C52 28 52 36 50 42" stroke="#f59e0b" stroke-width="2.5"
+                stroke-linecap="round" />
+              <circle cx="13" cy="24" r="2.5" fill="#f59e0b" />
+              <circle cx="11" cy="32" r="2.5" fill="#f59e0b" />
+              <circle cx="51" cy="24" r="2.5" fill="#f59e0b" />
+              <circle cx="53" cy="32" r="2.5" fill="#f59e0b" />
+              <path d="M22 14H42V28C42 34 37 39 32 39C27 39 22 34 22 28V14Z" fill="#f59e0b" stroke="#d97706"
+                stroke-width="2" />
+              <path d="M22 18H16C14 18 13 20 13 22C13 26 16 29 22 29" stroke="#d97706" stroke-width="2"
+                stroke-linecap="round" />
+              <path d="M42 18H48C50 18 51 20 51 22C51 26 48 29 42 29" stroke="#d97706" stroke-width="2"
+                stroke-linecap="round" />
+              <path d="M29 39V46H35V39" fill="#d97706" />
+              <path d="M23 46H41V51H23V46Z" fill="#b45309" stroke="#78350f" stroke-width="1.5" />
+            </svg>
+          </div>
+
+          <div class="awards-details-wrap">
+            <div class="awards-card-header">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="8" r="6" fill="#f59e0b" />
+                <path d="M9 13L7 22L12 19L17 22L15 13" fill="#d97706" />
+              </svg>
+              <h3>Awards &amp; Medals</h3>
+            </div>
+
+            <div class="award-pill-item">
+              <span class="award-star-icon">&#9733;</span>
+              <span>Dr. Gopala Krishnan AMBI TN Medal</span>
+            </div>
+
+            <div class="award-pill-item">
+              <span class="award-star-icon">&#9733;</span>
+              <span>Dr. Ebenezer Medal</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Wave Graphic -->
+  <div class="decorative-wave-bar">
+    <svg class="wave-svg" viewBox="0 0 1200 60" preserveAspectRatio="none">
+      <path d="M0,0 C200,45 420,55 600,30 C780,5 980,40 1200,10 L1200,60 L0,60 Z" fill="rgba(10, 18, 34, 0.95)" />
+      <path d="M0,8 C220,52 440,58 620,33 C800,8 1000,42 1200,14" fill="none" stroke="#f59e0b" stroke-width="2"
+        opacity="0.85" />
+      <path d="M0,15 C240,58 460,62 640,36 C820,10 1020,44 1200,18" fill="none" stroke="#38bdf8" stroke-width="2.5"
+        opacity="0.6" />
+    </svg>
+  </div>
+
+  <!-- Events Section -->
+  <section class="events-table-section">
+    <div class="table-controls-row">
+      <div class="section-title-box">
+        <div class="section-gold-stripe"></div>
+        <h2>Upcoming Academic Events</h2>
+      </div>
+
+      <div class="actions-right-wrap">
+        <div class="search-input-pill-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="wixDarkSearch" class="search-input-pill" placeholder="Search by event name..."
+            onkeyup="wixFilterDark()">
+        </div>
+
+        <span class="instructions-link-btn"
+          onclick="alert('Instructions to Participants:\n1. All delegates must complete formal registration.\n2. Certificates awarded upon completion.\n3. Lab attire recommended for hands-on sessions.')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+          </svg>
+          Instructions to Participants &nearr;
+        </span>
+      </div>
+    </div>
+
+    <!-- Structured Dark Glass Table (Transforms to Cards on Mobile) -->
+    <div class="table-container-card">
+      <table class="events-structured-table" id="wixDarkTable">
+        <thead>
+          <tr>
+            <th class="th-sno">S. NO.</th>
+            <th class="th-name">NAME OF THE EVENT</th>
+            <th class="th-date">DATE OF EVENT</th>
+            <th class="th-venue">VENUE</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Row 1 -->
+          <tr>
+            <td class="td-sno-col">1</td>
+            <td>
+              <span class="event-entry-title"
+                onclick="alert('TAMBICON 2026: 4 workshops on LCMS, ABG, ISO CERTIFICATION, AI')">
+                AMBITN chapter Conducted 3rd TN state AMBI Conference (TAMBICON 2026) &nearr;
+              </span>
+              <span class="event-workshops-tagline">
+                4 workshops on <span class="badge-highlight">LCMS</span>, <span class="badge-highlight">ABG</span>,
+                <span class="badge-highlight">ISO CERTIFICATION</span>, <span class="badge-highlight">AI</span>
+              </span>
+            </td>
+            <td>
+              <div class="date-cell-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                </svg>
+                <span>26th Oct to 28th Oct 2026</span>
+              </div>
+            </td>
+            <td>
+              <div class="venue-cell-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <div>
+                  <div class="venue-name">Madras Medical College, Chennai</div>
+                  <div class="venue-sub">Organised by Instt of Biochemistry</div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- Row 2 -->
+          <tr>
+            <td class="td-sno-col">2</td>
+            <td>
+              <span class="event-entry-title"
+                onclick="alert('Two-day CME workshop on Molecular Oncology – Translating Genomics into Clinical Medicine')">
+                A two-day CME-cum-hands-on workshop on “Molecular Oncology – Translating Genomics into Clinical
+                Medicine” &nearr;
+              </span>
+              <span class="event-workshops-tagline">
+                Hands-on genomic mapping &amp; personalized molecular oncology protocols
+              </span>
+            </td>
+            <td>
+              <div class="date-cell-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                </svg>
+                <span>29th and 30th October 2026</span>
+              </div>
+            </td>
+            <td>
+              <div class="venue-cell-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <div>
+                  <div class="venue-name">Thanjavur Medical College</div>
+                  <div class="venue-sub">Department of Biochemistry</div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- Row 3 -->
+          <tr>
+            <td class="td-sno-col">3</td>
+            <td>
+              <span class="event-entry-title"
+                onclick="alert('CME & Workshop on POCT – Decoded at Tirunelveli Medical College')">
+                CME &amp; Workshop on “POCT – Decoded”
+                <span class="badge-upcoming-tag">Upcoming</span> &nearr;
+              </span>
+              <span class="event-workshops-tagline">
+                For Respected Professors &amp; Faculty Members • Organized by Dept of Biochemistry
+              </span>
+            </td>
+            <td>
+              <div class="date-cell-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                </svg>
+                <div>
+                  <span>Friday 13th November 2026</span>
+                  <span class="time-slot-sub">&#9200; 8:30 AM – 4:30 PM</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="venue-cell-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <div>
+                  <div class="venue-name">Manimuthar Lecture Hall</div>
+                  <div class="venue-sub">Tirunelveli Medical College</div>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <script>
+    function wixFilterDark() {
+      const q = document.getElementById("wixDarkSearch").value.toUpperCase();
+      const trs = document.getElementById("wixDarkTable").querySelectorAll("tbody tr");
+      trs.forEach(r => {
+        r.style.display = (r.textContent || r.innerText).toUpperCase().indexOf(q) > -1 ? "" : "none";
+      });
+    }
+  </script>
+</div>
